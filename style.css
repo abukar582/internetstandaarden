@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ec8922;
+
+}
+
+
+
+/* nav */
+header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(80, 25, 0);
+}
+
+button {
+    background-color: #9b0606b8;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 450ms ease-in;
+}
+
+#logo {
+    border: radius 100px;
+    color: #ffffff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+div {
+    width: 1280px;
+    margin: auto;
+}
+
+nav {
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li {
+    font-weight: 300;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.nav-branding {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.hero-image {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+    background-image: url("img/heropicture.webp");
+    background-size:cover;
+    background-position: center;
+}
+/* https: //www.cnet.com/tech/home-entertainment/best-record-player/ */
+.hero-cont {
+    text-align: center ;
+    max-width: 1140px;
+    margin-top: 3em;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.hero-links a {
+    color: rgb(255, 255, 255);
+}
+
+.hero-desc {
+    max-width: 500px;
+    font-size: medium;
+    color: #ffffffd0;
+}
+
+
+.hero-links {
+    justify-content: center;
+    position: relative;
+    margin-left: 100px;
+}
+
+.hero-subtitel,
+.hero-desc {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.hero-contact:hover,
+.hero-about:hover {
+    background-color: #ffffff7c;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    border-color: #ffffff;
+}
+
+
+/*container*/
+.left {
+    height: 600px;
+    width: 33.33%;
+    background-color: #915018;
+    padding: 10px 10px;
+    color: #ffffff;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.left-titel {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.foto-me {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.my-desc {
+    width: 33%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+}
+
+.my-desc p,
+.my-desc h3 {
+    margin-top: 2em;
+}
+
+
+.desc-titel {
+    padding-top: 2em;
+    padding-left: 3em;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #2e4f4e;
+    bottom: 0;
+    position: absolute;
+    height: 2.5rem;
+}
+
+
+.dingen {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.artiesten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 70px;
+    width: 100%;
+    height: 10em;
+    background-color: #9a8b6d;
+}
+
+.elton, .michael, .elvis, .frank, .marvin, .beatles {
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    background-color: #4f462e;
+    margin: 15vh 40vh;
+    padding: 2vh;
+    border-radius: 20px;
+    position: absolute;
+}
+
+body {
+    background: rgb(255, 184, 3);
+    background:#ec8922;
+}
+
+
+
+.main {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 10vw;
+    background-color: #ffffff;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #000000;
+    font-weight: 500;
+}
+
+
+.form-element,
+.text {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+label,
+input,
+select,
+.checkbox {
+    flex: 1;
+    padding: 15px;
+}
